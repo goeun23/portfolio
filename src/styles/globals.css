@@ -2,21 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  h1 {
-    @apply font-semibold text-5xl py-2;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-  h2 {
+@theme {
+}
+
+@layer base {
+  body {
+    font-family: 'Noto Sans';
+  }
+  h1 {
     @apply font-semibold text-4xl py-2;
   }
 
+  h2 {
+    @apply font-semibold text-3xl py-2;
+  }
+
   h3 {
-    @apply font-semibold text-3xl;
+    @apply font-semibold text-2xl;
   }
 
   h4 {
-    @apply font-semibold text-2xl;
+    @apply font-semibold text-xl;
   }
   a {
     @apply cursor-pointer hover:cursor-pointer;

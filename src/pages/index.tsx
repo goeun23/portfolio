@@ -104,7 +104,7 @@ const getImgSrc = async ({
   section: string;
   item: InformationProps | ProjectProps | WorkExperienceProps;
 }) => {
-  const imgSrc = `/images/${section}/${"id" in item ? item.id : "profile"}.png`;
+  const imgSrc = `${item.imgSrc}`;
   const filePath = path.join(process.cwd(), "public", imgSrc);
   try {
     await fs.stat(filePath);
