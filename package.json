@@ -1,5 +1,5 @@
 {
-  "name": "portfolio-sjoleee",
+  "name": "portfolio-goeunchoi",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -12,12 +12,11 @@
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
   },
   "dependencies": {
-    "@next/font": "13.1.5",
     "@svgr/webpack": "^6.5.1",
     "@types/node": "18.11.18",
     "@types/react": "18.0.27",
     "@types/react-dom": "18.0.10",
-    "next": "13.1.5",
+    "next": "^13.1.5",
     "next-seo": "^5.15.0",
     "next-themes": "^0.2.1",
     "raw-loader": "^4.0.2",

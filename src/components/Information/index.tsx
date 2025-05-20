@@ -1,5 +1,6 @@
 import ContactItem from '../ContactItem';
 import Introduce from './Introduce';
+import Image from 'next/image';
 
 import { DataProps } from '@/types';
 
@@ -8,7 +9,13 @@ const Information = ({ information }: Pick<DataProps, 'information'>) => {
     <div className="flex flex-col gap-8">
       <div className="flex flex-col gap-2"></div>
       <div className="flex items-center">
-        <img className="w-40 h-40 rounded-full mr-4" src="/images/me_blue.png" alt="my_blue_img" />
+        <Image 
+          className="w-40 h-40 rounded-full mr-4" 
+          src="/images/me_blue.png" 
+          alt="my_blue_img"
+          width={160}
+          height={160}
+        />
 
         <div className="flex flex-col w-full">
           <div className="hidden md:inline-block relative rounded-br-3xl rounded-tr-3xl rounded-bl-3xl z-20 bg-transparent origin-top-left w-fit bg-white dark:bg-BLACK">

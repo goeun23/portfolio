@@ -41,78 +41,69 @@
   "project": [
     {
       "id": 0,
-      "name": "첫번째 팀 프로젝트",
-      "description": "프로젝트에 대한 간단한 설명을 적을 수 있습니다. 어떤 프로젝트인지 주제나 강조하고 싶은 부분을 적어보세요.",
+      "name": "애플링(Appling)",
+      "description": "사과 판매 및 주문 관리 통합 플랫폼\n 가족이 사과 농원을 하고 계셔서 판매자인 시니어 사용자(판매자)를 고려해 프로세스를 단순화하고, UI 요소를 명확하고 크게 설계하였습니다. 실제 사용자는 저희 가족으로, 직접 테스트와 피드백을 받아 UI 개선에 반영하여 실제 사용자 친화적인 서비스가 되도록 반복적으로 개선작업을 수행하였습니다.",
       "webUrl": "https://github.com/sjoleee/",
       "repoUrl": "https://github.com/sjoleee/",
       "isTeam": true,
-      "period": ["2022. 07", "2022. 09"],
-      "stack": ["사용한 기술을 적어주세요", "React.js", "JavaScript", "styled-components", "Recoil"]
+      "period": ["2024. 03", "2024. 10"],
+      "stack": ["Vue.js", "Typescript", "Vite", "Vue-router", "Axios", "Docker", "Docker-compose", "nginx"]
     },
     {
       "id": 1,
-      "name": "첫번째 개인 프로젝트",
-      "description": "프로젝트에 대한 간단한 설명을 적을 수 있습니다. 어떤 프로젝트인지 주제나 강조하고 싶은 부분을 적어보세요.",
+      "name": "챗토리(chatori)",
+      "description": "AI 기반 대화형 인터페이스 UI 개발 프로젝트\n ChatGPT와 유사한 UI와 기능을 갖춘 챗 인터페이스를 목표로, 메세지 입력 흐름과 대화 경험을 중심으로 설계하였습니다. 텍스트 입력시 직관성과 응답 흐름을 고려하여, 사용자의 몰입도를 높일 수 있는 방향으로 개발하였습니다.",
       "webUrl": "https://github.com/sjoleee/",
       "repoUrl": "https://github.com/sjoleee/",
       "isTeam": false,
-      "period": ["2022. 10", "2022. 11"],
-      "stack": ["JavaScript", "HTML/CSS"]
+      "period": ["2025. 03", "2025. 05"],
+      "stack": ["React", "Typescript", "TailwindCSS", "Zustand", "Cypress", "Google OAuth"]
+    }, 
+    {
+      "id": 2,
+      "name": "DevGrass",
+      "description": "Git 커밋 데이터를 기반으로 일별/월별 활동을 시각화하는 히스토리 서비스입니다.\n 커밋 정도를 잔디(grass)의 색상 농도로 표현하여 활동 빈도를 시각화하고, 캘린더 UI를 통해 날짜 커밋 내역을 한눈에 확인할 수 있도록 구성하였습니다.",
+      "webUrl": "https://github.com/sjoleee/",
+      "repoUrl": "https://github.com/sjoleee/",
+      "isTeam": false,
+      "period": ["2025. 04", "2025. 05"],
+      "stack": ["React", "Typescript", "TailwindCSS", "Recoil", "vite"]
     }
   ],
 
   "activity": [
     {
       "id": 0,
-      "name": "첫번째 활동",
-      "period": ["2022. 06", "2022. 08"],
-      "description": "첫번째 활동에 대한 간략한 설명"
+      "name": "2019 ICT 글로벌 인턴십-karfarm",
+      "period": ["2019. 09", "2019. 12"],
+      "description": "2019년 ICT 글로벌 인턴십을 통해 실리콘밸리에 위치한 스타트업 Karfarm에서 인턴십을 진행했습니다.\n중고차 거래 플랫폼의 웹 프론트엔드 개발을 맡아 현지 개발자들과 협업하며 실리콘밸리의 개발 문화를 경험할 수 있었습니다. \n업무 외에도 실리콘밸리 문화를 간접적으로 접하며 프론트엔드 개발자로 진로를 결정하는 계기가 된 경험입니다."
     },
     {
       "id": 1,
-      "name": "두번째 활동",
-      "period": ["2022. 06", "2022. 08"],
-      "description": "두번째 활동에 대한 간략한 설명"
+      "name": "2015 Purdue Univ. 글로벌 인사이트 단기 어학연수",
+      "period": ["2016. 01", "2016. 02"],
+      "description": "일리노이 퍼듀 대학교에서 1개월간 어학연수를 진행하며, 다양한 국적의 학생들과 교류했던 경험입니다. \n빅테크 기업들을 보면서 글로벌 IT 환경에 대한 관심과 시야를 가지게 되었습니다.\n 이 경험은 이후 실리콘밸리 스타트업 인턴십에 도전하는데 중요한 동기이자 기반이 되었습니다."
     }
+   
   ],
 
   "education": [
     {
       "id": 0,
-      "name": "첫번째 교육",
-      "period": ["2013. 02", "2020. 02"],
-      "description": "첫번째 교육에 대한 간략한 설명"
-    },
-    {
-      "id": 1,
-      "name": "두번째 교육",
-      "period": ["2013. 02", "2020. 02"],
-      "description": "두번째 교육에 대한 간략한 설명"
+      "name": "대전대학교",
+      "period": ["2015. 03", "2019. 02"],
+      "description": "컴퓨터 공학 전공"
     }
-  ],
-
-  "certificate": [
-    {
-      "id": 0,
-      "name": "TOEIC 1000점",
-      "date": "2019. 07. 28",
-      "organizer": "ETS"
-    },
-    {
-      "id": 1,
-      "name": "OPIC IH",
-      "date": "2019. 07. 28",
-      "organizer": "ETS"
-    }
+    
   ],
 
   "award": [
     {
       "id": 0,
-      "name": "첫번째 수상",
-      "date": "2019. 07. 28",
-      "organizer": "수여기관",
-      "description": "첫번째 수상에 대한 간략한 설명"
+      "name": "ICT 글로벌 인턴십 수기 공모전 대상",
+      "date": "2019. 02",
+      "organizer": "대전대학교",
+      "description": "ICT 글로벌 인턴십 수기 공모전 대상"
     }
   ]
 }
