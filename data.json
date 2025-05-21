@@ -43,8 +43,8 @@
       "id": 0,
       "name": "애플링(Appling)",
       "description": "사과 판매 및 주문 관리 통합 플랫폼\n 가족이 사과 농원을 하고 계셔서 판매자인 시니어 사용자(판매자)를 고려해 프로세스를 단순화하고, UI 요소를 명확하고 크게 설계하였습니다. 실제 사용자는 저희 가족으로, 직접 테스트와 피드백을 받아 UI 개선에 반영하여 실제 사용자 친화적인 서비스가 되도록 반복적으로 개선작업을 수행하였습니다.",
-      "webUrl": "https://github.com/sjoleee/",
-      "repoUrl": "https://github.com/sjoleee/",
+      
+      "repoUrl": "https://github.com/appling-c/appling-fe",
       "isTeam": true,
       "period": ["2024. 03", "2024. 10"],
       "stack": ["Vue.js", "Typescript", "Vite", "Vue-router", "Axios", "Docker", "Docker-compose", "nginx"]
@@ -53,8 +53,8 @@
       "id": 1,
       "name": "챗토리(chatori)",
       "description": "AI 기반 대화형 인터페이스 UI 개발 프로젝트\n ChatGPT와 유사한 UI와 기능을 갖춘 챗 인터페이스를 목표로, 메세지 입력 흐름과 대화 경험을 중심으로 설계하였습니다. 텍스트 입력시 직관성과 응답 흐름을 고려하여, 사용자의 몰입도를 높일 수 있는 방향으로 개발하였습니다.",
-      "webUrl": "https://github.com/sjoleee/",
-      "repoUrl": "https://github.com/sjoleee/",
+      
+      "repoUrl": "https://github.com/goeun23/chatori",
       "isTeam": false,
       "period": ["2025. 03", "2025. 05"],
       "stack": ["React", "Typescript", "TailwindCSS", "Zustand", "Cypress", "Google OAuth"]
@@ -63,8 +63,8 @@
       "id": 2,
       "name": "DevGrass",
       "description": "Git 커밋 데이터를 기반으로 일별/월별 활동을 시각화하는 히스토리 서비스입니다.\n 커밋 정도를 잔디(grass)의 색상 농도로 표현하여 활동 빈도를 시각화하고, 캘린더 UI를 통해 날짜 커밋 내역을 한눈에 확인할 수 있도록 구성하였습니다.",
-      "webUrl": "https://github.com/sjoleee/",
-      "repoUrl": "https://github.com/sjoleee/",
+      
+      "repoUrl": "https://github.com/goeun23/devGrass",
       "isTeam": false,
       "period": ["2025. 04", "2025. 05"],
       "stack": ["React", "Typescript", "TailwindCSS", "Recoil", "vite"]
