@@ -18,7 +18,7 @@
       "name": "파워이십일",
       "position": "Front-end Engineer",
       "imgSrc": "/images/workExperience/power.jpg",
-      "period": ["2022. 01", "now"]
+      "period": ["2019. 02", "2020. 07"]
     },
     
     {
@@ -26,14 +26,14 @@
       "name": "디케이테크인",
       "position": "Front-end Engineer",
       "imgSrc": "/images/workExperience/dkt.png",
-      "period": ["2019. 01", "2019. 09"]
+      "period": ["2020. 07", "2022. 05"]
     },
     {
       "id": 0,
       "name": "카카오VX",
       "position": "Web Developer",
       "imgSrc": "/images/workExperience/vx.png",
-      "period": ["2022. 01", "now"]
+      "period": ["2022. 05", "now"]
     }
 
   ],
