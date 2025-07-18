@@ -15,7 +15,7 @@
   "workExperience": [
     {
       "id": 2,
-      "name": "파워이십일",
+      "name": "Power21",
       "position": "Front-end Engineer",
       "imgSrc": "/images/workExperience/power.jpg",
       "period": ["2019. 02", "2020. 07"]
@@ -23,14 +23,14 @@
 
     {
       "id": 1,
-      "name": "디케이테크인",
+      "name": "DKTechin(a Kakao Company)",
       "position": "Front-end Engineer",
       "imgSrc": "/images/workExperience/dkt.png",
       "period": ["2020. 07", "2022. 05"]
     },
     {
       "id": 0,
-      "name": "카카오VX",
+      "name": "KakaoVX",
       "position": "Web Developer",
       "imgSrc": "/images/workExperience/vx.png",
       "period": ["2022. 05", "now"]
