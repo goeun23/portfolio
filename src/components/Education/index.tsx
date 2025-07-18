@@ -1,14 +1,14 @@
-import SectionTitle from "../SectionTitle";
-import EducationItem from "./EducationItem";
+import SectionTitle from '../SectionTitle';
+import EducationItem from './EducationItem';
 
-import { DataProps } from "@/types";
+import { DataProps } from '@/types';
 
-const Education = ({ education }: Pick<DataProps, "education">) => {
+const Education = ({ education }: Pick<DataProps, 'education'>) => {
   return (
     <div>
       <SectionTitle>Education</SectionTitle>
       <div className="flex flex-col gap-24">
-        {[...education].reverse().map((education) => (
+        {[...education].map(education => (
           <EducationItem key={education.id} {...education} />
         ))}
       </div>
