@@ -58,6 +58,7 @@ const App = ({ Component, pageProps }: AppProps) => {
     const handleRouteChange = (url: URL) => {
       gtag.pageview(url);
     };
+    gtag.pageview(window.location.pathname);
     router.events.on('routeChangeComplete', handleRouteChange);
     router.events.on('hashChangeComplete', handleRouteChange);
     return () => {
@@ -84,6 +85,10 @@ const App = ({ Component, pageProps }: AppProps) => {
         gtag('config', '${GA_TRACKING_ID}', {
           page_path: window.location.pathname,
         });
+        gtag('event', 'page_view', {
+        page_location : window.location.href, 
+        page_path : window.location.pathname,
+        })
       `,
         }}
       />
