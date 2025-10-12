@@ -12,12 +12,12 @@ const GA_TRACKING_ID = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS;
  */
 const DEFAULT_SEO = {
   title: '최고은 | Front-End Dev',
-  description: '안녕하세요, 프론트엔드 개발자 최고은입니다.',
-  canonical: 'https://www.naver.com/',
+  description: '안녕하세요, 6년차 프론트엔드 개발자 최고은입니다.',
+  canonical: 'https://portfoliogoeun.vercel.app',
   openGraph: {
     type: 'website',
     locale: 'ko_KR',
-    url: 'https://www.naver.com/',
+    url: 'https://portfoliogoeun.vercel.app',
     title: '최고은 | Front-End Dev',
     site_name: '최고은 | Front-End Dev',
     images: [
