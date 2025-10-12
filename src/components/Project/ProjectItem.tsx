@@ -1,12 +1,13 @@
-import Image from "next/image";
-import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm";
+import Image from 'next/image';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
-import Links from "./Links";
+import Links from './Links';
 
-import { ProjectProps } from "@/types";
+import { ProjectProps } from '@/types';
 
 const ProjectItem = ({
+  id,
   name,
   description,
   repoUrl,
@@ -14,10 +15,11 @@ const ProjectItem = ({
   period,
   stack,
   markdown,
+  subtitle,
   imgSrc,
 }: ProjectProps) => {
   return (
-    <div className="flex flex-col md:flex-row gap-2 md:gap-0">
+    <div className="flex flex-col md:flex-row gap-2 md:gap-0" id={id}>
       <div className="flex flex-col gap-2">
         <div className="flex md:flex-col items-center md:items-start mr-4 gap-6">
           {imgSrc && (
@@ -32,6 +34,7 @@ const ProjectItem = ({
           <div className="flex flex-col gap-2">
             <div className="w-48">
               <h3>{name}</h3>
+              <h6>{subtitle}</h6>
               <div className="flex flex-col">
                 <span>{`${period[0]} - ${period[1]}`}</span>
               </div>
@@ -44,7 +47,7 @@ const ProjectItem = ({
         <div>
           <blockquote className="whitespace-pre-wrap">{`${description}`}</blockquote>
           <div className="flex gap-1 flex-wrap">
-            {stack.map((stack) => (
+            {stack.map(stack => (
               <span
                 key={stack}
                 className=" bg-BLACK dark:bg-white  py-[2px] px-1.5 rounded-md text-xs font-medium font-mono whitespace-nowrap text-white dark:text-BLACK"
@@ -54,7 +57,7 @@ const ProjectItem = ({
             ))}
           </div>
         </div>
-        <ReactMarkdown remarkPlugins={[remarkGfm]}>{markdown ?? ""}</ReactMarkdown>
+        <ReactMarkdown remarkPlugins={[remarkGfm]}>{markdown ?? ''}</ReactMarkdown>
       </div>
     </div>
   );
