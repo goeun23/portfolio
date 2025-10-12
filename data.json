@@ -46,7 +46,7 @@
       "name": "마음콩",
       "subtitle": "React-Next 브릿지",
       "description": "라우팅 가드, 토큰 기반 로그인 재인증, 에러처리 등을 Next에 도입한 기술스택 확장 목적의 프로젝트입니다.",
-      "repoUrl": "https://github.com/appling-c/appling-fe",
+      "repoUrl": "https://github.com/goeun23/mamkong",
       "isTeam": false,
       "period": ["2025. 03", "2025. 10"],
       "stack": ["Next.js", "Typescript", "Zustand", "React", "React Query"]
