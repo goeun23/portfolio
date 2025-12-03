@@ -53,13 +53,21 @@
     },
     {
       "id": 1,
-      "name": "Dropbox Clone",
+      "name": "임장 다이어리",
       "subtitle": "React-Next 브릿지",
-      "description": "Next.js & Supabase 기반 클라우드 스토리지 기능 구현을 중심으로 한 Dropbox 클론 프로젝트입니다.",
+      "description": "복잡한 임장 기록부터 실거래가 조회, 대출 계산까지 한번에 해결하는 부동산 올인원 비서 서비스",
       "repoUrl": "https://github.com/goeun23/inflearn-supabase-clone-app",
       "isTeam": false,
-      "period": ["2025. 03", "2025. 05"],
-      "stack": ["Next.js", "Typescript", "TailwindCSS", "React Query", "Supabase", "MUI Icons"]
+      "period": ["2025. 11", "2025. 12"],
+      "stack": [
+        "Next.js(App router)",
+        "Typescript",
+        "TailwindCSS",
+        "React Query",
+        "Supabase",
+        "공공데이터 포털",
+        "Kakao Map API"
+      ]
     },
     {
       "id": 2,
