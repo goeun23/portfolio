@@ -43,20 +43,21 @@
   "project": [
     {
       "id": 0,
-      "name": "마음콩",
+      "name": "Mindary",
       "subtitle": "React-Next 브릿지",
-      "description": "라우팅 가드, 토큰 기반 로그인 재인증, 에러처리 등을 Next에 도입한 기술스택 확장 목적의 프로젝트입니다.",
-      "repoUrl": "https://github.com/goeun23/mamkong",
+      "description": "Gemini AI를 연동하여 메세지를 주고 받는 AI 기반의 다이어리 앱으로 기술스택 확장 목적의 프로젝트입니다.",
+      "repoUrl": "https://github.com/goeun23/mindary",
       "isTeam": false,
       "period": ["2025. 03", "2025. 10"],
-      "stack": ["Next.js", "Typescript", "Zustand", "React", "React Query"]
+      "stack": ["Next.js", "Typescript", "ContextAPI", "React", "Supabase", "Gemini"]
     },
     {
       "id": 1,
       "name": "임장 다이어리",
       "subtitle": "React-Next 브릿지",
       "description": "복잡한 임장 기록부터 실거래가 조회, 대출 계산까지 한번에 해결하는 부동산 올인원 비서 서비스",
-      "repoUrl": "https://github.com/goeun23/inflearn-supabase-clone-app",
+      "repoUrl": "https://github.com/goeun23/apartment-imjang-app",
+      "webUrl": "https://go-home-rho.vercel.app",
       "isTeam": false,
       "period": ["2025. 11", "2025. 12"],
       "stack": [
@@ -65,8 +66,7 @@
         "TailwindCSS",
         "React Query",
         "Supabase",
-        "공공데이터 포털",
-        "Kakao Map API"
+        "공공데이터 포털"
       ]
     },
     {
