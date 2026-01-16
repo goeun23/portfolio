@@ -52,7 +52,7 @@
       "repoUrl": "https://github.com/goeun23/mindary",
       "isTeam": false,
       "period": ["2025. 03", "2025. 10"],
-      "stack": ["Next.js", "Typescript", "ContextAPI", "React", "Supabase", "Gemini"]
+      "stack": ["Next.js", "Typescript", "Supabase", "Gemini"]
     },
     {
       "id": 1,
@@ -63,14 +63,7 @@
       "webUrl": "https://go-home-rho.vercel.app",
       "isTeam": false,
       "period": ["2025. 11", "2025. 12"],
-      "stack": [
-        "Next.js(App router)",
-        "Typescript",
-        "TailwindCSS",
-        "React Query",
-        "Supabase",
-        "공공데이터 포털"
-      ]
+      "stack": ["Next.js(App router)", "Typescript", "React Query", "Supabase"]
     },
     {
       "id": 2,
@@ -100,7 +93,18 @@
       "repoUrl": "",
       "isTeam": true,
       "period": ["2022. 07", "2025. 07"],
-      "stack": ["Vue", "Vuex", "Route Guard", "Error Handling", "Webview Optimization"]
+      "stack": ["Vue", "Vuex", "Optimization"]
+    },
+    {
+      "id": 5,
+      "name": "시움(Sium)",
+      "subtitle": "React-Next 브릿지",
+      "description": "로딩 속도 개선과 네이티브 앱 수준의 반응성 확보 목적의 게이미피케이션 습관 형성 플랫폼",
+      "repoUrl": "https://github.com/goeun23/sium-front",
+      "webUrl": "https://sium-nine.vercel.app",
+      "isTeam": false,
+      "period": ["2025. 11", "2026. 01"],
+      "stack": ["Next.js", "Typescript", "Supabase"]
     }
   ],
 
