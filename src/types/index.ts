@@ -12,6 +12,7 @@ export interface WorkExperienceProps {
   position: string;
   period: string[];
   markdown?: string;
+  stack: string[];
   imgSrc?: string;
 }
 

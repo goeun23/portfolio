@@ -19,7 +19,8 @@
       "subtitle": "전력솔루션팀",
       "position": "Front-end Engineer",
       "imgSrc": "/images/workExperience/power.jpg",
-      "period": ["2019. 02", "2020. 07"]
+      "period": ["2019. 02", "2020. 07"],
+      "stack": ["Vue", "Vue-router", "Axios", "Vite"]
     },
 
     {
@@ -28,7 +29,8 @@
       "subtitle": "어플리케이션개발팀",
       "position": "Front-end Engineer",
       "imgSrc": "/images/workExperience/dkt.png",
-      "period": ["2020. 07", "2022. 05"]
+      "period": ["2020. 07", "2022. 05"],
+      "stack": ["Vue", "Vue-router", "Axios", "Vite"]
     },
     {
       "id": 0,
@@ -36,7 +38,8 @@
       "subtitle": "골프플랫폼웹개발팀",
       "position": "Front-end Engineer",
       "imgSrc": "/images/workExperience/vx.png",
-      "period": ["2022. 05", "2025. 07"]
+      "period": ["2022. 05", "2025. 07"],
+      "stack": ["Vue", "Vue-router", "Axios", "Vite"]
     }
   ],
 
@@ -49,7 +52,7 @@
       "repoUrl": "https://github.com/goeun23/mindary",
       "isTeam": false,
       "period": ["2025. 03", "2025. 10"],
-      "stack": ["Next.js", "Typescript", "ContextAPI", "React", "Supabase", "Gemini"]
+      "stack": ["Next.js", "Typescript", "Supabase", "Gemini"]
     },
     {
       "id": 1,
@@ -60,22 +63,15 @@
       "webUrl": "https://go-home-rho.vercel.app",
       "isTeam": false,
       "period": ["2025. 11", "2025. 12"],
-      "stack": [
-        "Next.js(App router)",
-        "Typescript",
-        "TailwindCSS",
-        "React Query",
-        "Supabase",
-        "공공데이터 포털"
-      ]
+      "stack": ["Next.js(App router)", "Typescript", "React Query", "Supabase"]
     },
     {
       "id": 2,
-      "name": "FE 서비스 단위 분리와 코어 표준화",
+      "name": "Multi SPA 구축",
       "subtitle": "KakaoVX",
-      "description": "서버 템플릿 혼합 렌더링 구조를 서비스 단위로 분리하고 코어 모듈을 공유하는 Multi-SPA를 구축하여 파생된 4개의 서비스를 안정적으로 확장-운영하였습니다.",
+      "description": "",
       "repoUrl": "",
-      "isTeam": false,
+      "isTeam": true,
       "period": ["2024. 03", "2025. 07"],
       "stack": ["Vue", "Vue-router", "Axios", "Vite"]
     },
@@ -83,11 +79,32 @@
       "id": 3,
       "name": "셀프체크인 서비스",
       "subtitle": "KakaoVX",
-      "description": "앱 기반 셀프체크인과 무인카트(캐디리스) 동선을 연결해 카운터, 캐디 없이 입장/라운딩 완료가 가능하도록 전환, 현장 인력 의존도를 낮추고 운영비 절감을 목적으로 구현하였습니다.",
+      "description": "",
       "repoUrl": "",
-      "isTeam": false,
+      "isTeam": true,
       "period": ["2024. 07", "2025. 07"],
       "stack": ["Vue", "Vuex", "Route Guard", "Error Handling", "Webview Optimization"]
+    },
+    {
+      "id": 4,
+      "name": "골프예약 백오피스 고도화",
+      "subtitle": "KakaoVX",
+      "description": "",
+      "repoUrl": "",
+      "isTeam": true,
+      "period": ["2022. 07", "2025. 07"],
+      "stack": ["Vue", "Vuex", "Optimization"]
+    },
+    {
+      "id": 5,
+      "name": "시움(Sium)",
+      "subtitle": "React-Next 브릿지",
+      "description": "로딩 속도 개선과 네이티브 앱 수준의 반응성 확보 목적의 게이미피케이션 습관 형성 플랫폼",
+      "repoUrl": "https://github.com/goeun23/sium-front",
+      "webUrl": "https://sium-nine.vercel.app",
+      "isTeam": false,
+      "period": ["2025. 11", "2026. 01"],
+      "stack": ["Next.js", "Typescript", "Supabase"]
     }
   ],
 
